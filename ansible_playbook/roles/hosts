@@ -1,0 +1,8 @@
+[windows]
+34.93.249.29
+
+[windows:vars]
+ ansible_user=rohit_gaur007
+ ansible_password=-.FnyuL_cc/hk|4
+ ansible_connection=winrm
+ ansible_winrm_server_cert_validation=ignore
