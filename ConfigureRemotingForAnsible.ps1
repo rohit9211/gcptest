@@ -310,7 +310,7 @@ Else
 # Check for basic authentication.
 $basicAuthSetting = Get-ChildItem WSMan:\localhost\Service\Auth | Where-Object {$_.Name -eq "Basic"}
 Write-Verbose "Disabling basic auth support."
-Set-Item -Path "WSMan:\localhost\Service\Auth\Basic" -Value $false
+Set-Item -Path "WSMan:\localhost\Service\Auth\Basic" -Value $true
 Write-Log "Disabled basic auth support."
 
 # If EnableCredSSP if set to true
