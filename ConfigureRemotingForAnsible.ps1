@@ -62,7 +62,7 @@ Param (
     $CreateSelfSignedCert = $true,
     [switch]$ForceNewSSLCert,
     [switch]$GlobalHttpFirewallAccess,
-    [switch]$DisableBasicAuth = $true,
+    [switch]$DisableBasicAuth = $false,
     [switch]$EnableCredSSP
 )
 
